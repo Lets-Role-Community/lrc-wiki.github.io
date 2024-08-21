@@ -13,39 +13,66 @@
   <!-- Default Theme (see https://docsify.js.org/#/themes) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 
+  <!-- Custom CSS for Language Selector -->
+  <style>
+    .language-selector {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+    }
+    .language-selector select {
+      padding: 5px;
+      font-size: 14px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .language-selector img {
+      width: 20px;
+      height: 14px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  </style>
 </head>
 
 <body>
   <div id="app"></div>
 
+  <!-- Language Selector -->
+  <div class="language-selector">
+    <select id="language-select">
+      <option value="/">🇫🇷 Français</option>
+      <option value="/en/">🇬🇧 English</option>
+      <option value="/de/">🇩🇪 Deutsch</option>
+      <!-- Ajoutez d'autres langues ici si nécessaire -->
+    </select>
+  </div>
+
   <script>
     // Docsify Configuration (see https://docsify.js.org/#/configuration)
     window.$docsify = {
-      name: "Let's Role Wiki" ,
+      name: "Let's Role Wiki",
 
       // Sidebar Configuration
       auto2top: true,
       loadSidebar: true,
       maxLevel: 0,
-      // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
       subMaxLevel: 3,
 
       // Search Plugin Configuration
       search: {
         placeholder: 'Rechercher...',
         noData: 'Aucun résultat.',
-        // Headline depth, 1 - 6
         depth: 2,
-      },
-      namespaces: [
-      {
-        id: "lang",
-        values: ["fr", "en", "de"],
-        optional: true,
-        selector: "#lang-selector",
-      },
-    ]
+      }
     };
+
+    // Language Selector Logic
+    document.getElementById('language-select').addEventListener('change', function () {
+      window.location.href = this.value;
+    });
   </script>
 
   <!-- Required -->
