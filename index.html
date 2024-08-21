@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 
 <head>
   <meta charset="utf-8">
@@ -22,7 +22,10 @@
     // Docsify Configuration (see https://docsify.js.org/#/configuration)
     window.$docsify = {
       name: "Let's Role Wiki" ,
-      coverpage: ['/', '/en-gb/'', '/de-DE/'],
+
+      fallbackLanguages: ["fr-FR", "en-GB", "de-DE"],
+
+      coverpage: ['/', '/en-gb/', '/de-DE/'],
 
       // Sidebar Configuration
       auto2top: true,
@@ -37,7 +40,14 @@
         noData: 'Aucun résultat.',
         // Headline depth, 1 - 6
         depth: 2,
-        
+              namespaces: [
+      {
+        id: "lang",
+        values: ["fr-FR", "en-GB", "de-DE"],
+        optional: true,
+        selector: "#lang-selector",
+      },
+    ]
       }
     };
   </script>
