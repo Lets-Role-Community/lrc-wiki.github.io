@@ -1,12 +1,8 @@
 ![logo](https://assets.letsrolecdn.com/assets/img/logo.dc35fc4bb06864e644c6e71b28828ced9d3fdc21.svg)
 
-# Community's Wiki <small>3.5</small>
+# <small>🇫🇷</small> Bienvenue sur le Wiki Communautaire de Let's Role
 
-> A .
+Ce wiki rassemble toutes les infos et astuces pour utiliser **Let's Role** au mieux. Explorez, apprenez et contribuez !
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
-
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[Ouvrir Let's Role](https://lets-role.com)
+[Explorer le wiki](#cat)
