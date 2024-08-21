@@ -5,4 +5,4 @@
 This wiki gathers all the info and tips to make the most out of **Let's Role**. Explore, learn, and contribute!
 
 [Open Let's Role](https://lets-role.com)
-[Explore the wiki](#cat)
+[Explore the wiki](https://lets-role-community.github.io/wiki/en/default)

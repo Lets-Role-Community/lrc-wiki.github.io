@@ -7,4 +7,4 @@ Dieses Wiki sammelt alle Infos und Tipps, um **Let's Role** optimal zu nutzen. E
 
 
 [Open Let's Role](https://lets-role.com)
-[Explore the wiki](#cat)
+[Explore the wiki](https://lets-role-community.github.io/wiki/de/default/)
