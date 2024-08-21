@@ -23,11 +23,6 @@
     window.$docsify = {
       name: "Let's Role Wiki" ,
 
-      fallbackLanguages: ["fr", "en", "de"],
-      onlyCover: true,
-
-      coverpage: ['/', '/en/', '/de/'],
-
       // Sidebar Configuration
       auto2top: true,
       loadSidebar: true,
@@ -41,7 +36,8 @@
         noData: 'Aucun résultat.',
         // Headline depth, 1 - 6
         depth: 2,
-              namespaces: [
+      },
+      namespaces: [
       {
         id: "lang",
         values: ["fr", "en", "de"],
@@ -49,7 +45,6 @@
         selector: "#lang-selector",
       },
     ]
-      }
     };
   </script>
 
