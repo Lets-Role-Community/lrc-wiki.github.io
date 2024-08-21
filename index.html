@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
@@ -23,9 +23,10 @@
     window.$docsify = {
       name: "Let's Role Wiki" ,
 
-      fallbackLanguages: ["fr-FR", "en-GB", "de-DE"],
+      fallbackLanguages: ["fr", "en", "de"],
+      onlyCover: true,
 
-      coverpage: ['/', '/en-gb/', '/de-DE/'],
+      coverpage: ['/', '/en/', '/de/'],
 
       // Sidebar Configuration
       auto2top: true,
@@ -43,7 +44,7 @@
               namespaces: [
       {
         id: "lang",
-        values: ["fr-FR", "en-GB", "de-DE"],
+        values: ["fr", "en", "de"],
         optional: true,
         selector: "#lang-selector",
       },
