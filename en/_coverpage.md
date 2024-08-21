@@ -1,4 +1,4 @@
-![logo](https://assets.letsrolecdn.com/assets/img/logo.dc35fc4bb06864e644c6e71b28828ced9d3fdc21.svg)
+<img src="https://assets.letsrolecdn.com/assets/img/logo.dc35fc4bb06864e644c6e71b28828ced9d3fdc21.svg" alt="Let's Role Logo" width="200" />
 
 # <small>🇬🇧</small> Welcome to the Let's Role Community Wiki
 
