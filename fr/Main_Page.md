@@ -1,0 +1,1 @@
+Let's Role est une application dans le navigateur qui permet de jouer aux jeux de rôle en ligne avec vos ami(e)s. Totalement gratuit, et créé par une équipe de passionnés, nous utilisons les dernières technologie du web pour créer un site à la fois simple d'utilisation et contenant des fonctionnalités avancées.
